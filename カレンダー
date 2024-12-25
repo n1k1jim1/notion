@@ -117,8 +117,8 @@ td.fora > span {
       </div>
       <script>
         var months = [
-    '1月',
-    '2月',
+    'January',
+    'February',
     'March',
     'April',
     'May',
@@ -142,13 +142,13 @@ var days = [
 ];
 
 var days_abr = [
-    'Su',
-    'Mo',
-    'Tu',
-    'We',
-    'Th',
-    'Fr',
-    'Sa'
+    '日',
+    '月',
+    '火',
+    '水',
+    '木',
+    '金',
+    '土'
 ];
 
 Number.prototype.pad = function(num) {
