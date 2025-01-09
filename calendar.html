@@ -230,17 +230,17 @@ function CalendarControl() {
       ).innerHTML += `<div class="calendar-inner"><div class="calendar-controls">
       <div class="calendar-prev"><a href="#"><</a></div>
       <div class="calendar-year-month">
-      <div class="calendar-month-label">
+      <div class="calendar-month-label"></div>
       <div>
       <div class="calendar-year-label"></div> 
       </div>
       <div class="calendar-next"><a href="#">></a></div>
       </div>
       <div class="calendar-today-date">Today: 
-      　${calendarControl.localDate.getFullYear()},
-        ${calendarControl.calMonthName[calendarControl.localDate.getMonth()]},
-        ${calendarControl.localDate.getDate()},
-        ${calendarControl.calWeekDays[calendarControl.localDate.getDay()]} 
+      　${calendarControl.localDate.getFullYear()}+"年"
+        ${calendarControl.calMonthName[calendarControl.localDate.getMonth()]}
+        ${calendarControl.localDate.getDate()}+"日"
+        +"("+${calendarControl.calWeekDays[calendarControl.localDate.getDay()]}+")" 
         
       </div>
       <div class="calendar-body"></div></div>`;
