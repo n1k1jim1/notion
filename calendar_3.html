@@ -45,8 +45,10 @@ Source https://codepen.io/ismailvtl/pen/KrVrbp
     aspect-ratio: 1 / 0.735;
 }
 
-.calendar-inner {
-    padding: 5px 5px;
+.calendar-inner { height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
 .calendar .calendar-inner .calendar-body {
